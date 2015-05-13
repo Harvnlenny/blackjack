@@ -25,6 +25,10 @@ class Deck < Card
     @cards.shift
   end
 
+  def cards
+    @cards
+  end
+
 end
 
 deck = Deck.new
